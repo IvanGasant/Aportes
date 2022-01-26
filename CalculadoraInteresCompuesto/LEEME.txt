@@ -2,3 +2,9 @@ Es una sencilla calculadora WEB de interés compuesto
 dónde puedes especificar cuanto inverties, que APY% (interés tiene) y cuantos días dura la inversión para saber cuanto te retornará
 
 VERSIÓN 1.0
+
+Modo de empleo para nuevos usuarios
+
+1. Guarda los archivos index.html y calc.js en la misma carpeta
+
+2. Haz doble click sobre el index si no se abre con ningún navegador selecciona uno, si esto no funcionara,click derecho y clikando en 'abrir con' y ahí sí seleccionas tu navegador de preferencia

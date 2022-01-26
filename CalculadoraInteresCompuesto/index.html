@@ -37,7 +37,7 @@
 
 			}
 
-			#form{
+			form{
 
 				background-color: white;
 
@@ -55,13 +55,19 @@
 
 			}
 
+			label{
+
+				font-size: 20px;
+
+			}
+
 			input{
 
 				padding: 10px;
 
 				font-size: 50px;
 
-				width: 120px;
+				width: 270px;
 
 				text-align: center;
 
@@ -154,9 +160,9 @@
 
 	<body>
 
-		<h1>Calculadora de interés compuesto</h1>
+		<h1>Calculadora de interés compuesto | Versión 1.0</h1>
 
-		<div id="form">
+		<form>
 			
 			<label>Cantidad: </label><br><input type="number" id='cantidad'><br><br>
 			<label>Porcentaje: </label><br><input type="number" id='porcentaje'><br><br>
@@ -165,7 +171,7 @@
 			<div class="boton" onclick="calcf()">Calcular</div>
 			<div class="boton" onclick="limpiarf()">Limpiar</div>
 
-		</div>
+		</form>
 
 		<div id="resultado"></div>
 
